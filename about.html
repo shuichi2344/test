@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Computing Devices Store</title>
+		<link rel="stylesheet" href="style4.css">
+	</head>
+	<body>
+		 <!-- Header section -->
+		<div class="header">
+			<h1>About Us</h1>
+		</div>
+
+		<!-- Navigation menu -->
+		<nav class="nav_menu">
+			<a href="index2.html">Home</a>
+			<a href="device.html">Products</a>
+			<a href="about.html">About Us</a>
+			<a href="contact.html">Contact Us</a>
+		</nav>
+		
+		<video src="https://www.apple.com/105/media/us/mac/family/2024/60fc0159-4236-4a03-8534-f5ba07e538c5/anim/welcome/xlarge_2x.mp4" autoplay loop muted class="animated" style="width: 100%; border-radius: 8px;"></video>
+
+    <div id="datetime1"></div>
+    
+		<div class="container">
+			<h2>Welcome to TechStore</h2>
+			<p>At TechStore, we believe in the transformative power of technology. For over a decade, we've been dedicated to bringing you the latest innovations in computing devices that not only meet your needs but inspire you to do more.</p>
+			<p>Our commitment to excellence drives everything we do. From the sleek design of our products to the cutting-edge technology they embody, every aspect of TechStore is meticulously crafted to elevate your experience and exceed your expectations.</p>
+			<p>But our mission goes beyond just selling products. We're here to empower you—to unleash your creativity, fuel your passions, and make the impossible possible. Whether you're a student, a professional, or a creative enthusiast, TechStore is your gateway to a world of endless possibilities. <br>
+<b>Our customer feedback: <a href="#ct">Customer Testimonials</a></b></p>
+    
+			<h2><span class="icon">🚀</span>Discover Innovation</h2>
+			<p>Explore our curated selection of laptops, desktops, tablets, and accessories, carefully chosen to inspire and empower you. From powerful workstations to portable tablets, each device is designed to help you work smarter, play harder, and live better.</p>
+			<h2><span class="icon">🌐</span>Join the TechStore Community</h2>
+			<p>Join thousands of satisfied customers who have made TechStore their go-to destination for all things tech. Connect with us on social media and stay up-to-date with the latest news, product launches, and exclusive offers.</p>
+			<div class="highlight">
+				<h2><span class="icon">🌱</span>Our Commitment to Sustainability</h2>
+				<p>At TechStore, we're not just passionate about technology; we're also dedicated to protecting the planet. That's why we're committed to reducing our environmental impact by:</p>
+				<ul>
+					<li>Using eco-friendly packaging materials</li>
+					<li>Partnering with environmentally responsible suppliers</li>
+					<li>Offering recycling programs for old devices</li>
+					<li>Continuously striving to minimize waste and energy consumption</li>
+				</ul>
+				<p>Together, we can build a brighter future for generations to come.</p>
+			</div>
+<section id="ct">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <p>"TechStore has been my go-to destination for all my tech needs. Their products are top-notch, and their customer service is excellent."</p>
+            <p class="testimonial-author">- John Smith</p>
+        </div>
+        <div class="testimonial">
+            <p>"I recently purchased a laptop from TechStore, and I couldn't be happier with my purchase. The device exceeded my expectations in terms of performance and design."</p>
+            <p class="testimonial-author">- Emily Johnson</p>
+        </div>
+</section>
+        <a href="device.html" class="btn">Explore Our Products</a>
+    </div>
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<FONT COLOR="white">&copy; 2024 TechStore. All rights reserved.</FONT>
+		</footer>
+
+<!-- JavaScript -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the current date and time in Malaysia time
+        var currentDate = new Date();
+        var options = { timeZone: 'Asia/Kuala_Lumpur' };
+        var malaysiaDate = new Date(currentDate.toLocaleString('en-US', options));
+
+        // Format the date and time
+        var dateTimeString = malaysiaDate.toLocaleString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+            timeZoneName: 'short'
+        });
+
+        // Display the formatted date and time on the page
+        document.getElementById('datetime1').textContent = dateTimeString;
+    });
+    </script>
+	</body>
+</html>

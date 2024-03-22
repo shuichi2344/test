@@ -1,0 +1,95 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+}
+
+/* CSS property for header section */
+.header {
+    background-color: #474F7A;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS property for navigation menu */
+.nav_menu {
+    overflow: hidden;
+    background-color: #474F7A;
+    text-align: center; /* Center the navigation menu */
+}
+
+.nav_menu a {
+    display: inline-block; /* Change display to inline-block */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: #917FB3;
+    color: #2A2F4F;
+}
+
+/* CSS property for content section */
+.columnA,
+.columnB,
+.columnC {
+    float: left;
+    width: 31%;
+    padding: 15px;
+    text-align: justify;
+}
+
+h2 {
+    color: #81689D;
+    text-align: center;
+}
+
+/* Media query to set website layout 
+    according to screen size */
+@media screen and (max-width: 600px) {
+    .columnA,
+    .columnB,
+    .columnC {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .columnA,
+    .columnB,
+    .columnC {
+        width: 100%;
+    }
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0; /* Reset margin to remove default spacing */
+    padding: 0; /* Reset padding to remove default spacing */
+}
+
+h1 {
+    color: pink;
+}
+
+h3 {
+    color: #FF55BB;
+}
+
+p {
+    color: #460C68;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #474F7A;
+    padding: 5px 0; /* Increase padding for better spacing */
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the page */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Align footer to the bottom of the viewport */
+}

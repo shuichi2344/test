@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechStore</title>
+    <link rel="stylesheet" href="style5.css">   
+</head>
+<body>
+	 <!-- Header section -->
+	<div class="header">
+		<h1>Contact Us</h1>
+	</div>
+
+	<!-- Navigation menu -->
+	<nav class="nav_menu">
+		<a href="index2.html">Home</a>
+		<a href="device.html">Products</a>
+		<a href="about.html">About Us</a>
+		<a href="contact.html">Contact Us</a>
+	</nav>
+	
+	 <div class="banner-img">
+        <img src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp_heros/hero-banner-homepage.image.large_2x.jpg" alt="Banner Image">
+    </div>
+    
+<div id="datetime1"></div>
+  
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> info@techstore.com</p>
+            <p><strong>Phone:</strong> +6012-6734687</p>
+            <p><strong>Address:</strong> Online Store Available Currently</p>
+	<!-- Link to a website -->
+    	    <p><strong>For more information, visit our main brand webiste:</strong> <a href="https://www.apple.com/my/">Main Brand Website</a></p>
+        </div>
+        <h2>About TechStore</h2>
+        <p>TechStore is your one-stop online store for all your technology needs. We offer a wide range of products including laptops, desktops, tablets, accessories, and more. Our mission is to provide high-quality products and exceptional customer service to our customers.</p>
+        <h2>Popular Products</h2>
+        <div class="product-grid-container">
+        <div class="product-grid">
+                <img src="mba13.png" alt="Device 1">
+                <h3>MacBook Air 13"</h3>
+		<h3>M1 Chip</h3>
+		<h4>A lightweight, capable laptop to get things done on the go.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM4,399</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device1.html'">Learn More</button>
+        </div>
+        <div class="product-grid">
+                <img src="mba1315.jpg" alt="Device 2">
+                <h3>MacBook Air 13" And 15"</h3>
+		<h3>M2 Chip</h3>
+		<h4>Strikingly thin and fast so you can work, play or create anywhere.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM5,199</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device2.html'">Learn More</button>
+        </div>
+ 	<div class="product-grid">
+                <img src="imac.png" alt="Device 3">
+                <h3>iMac"</h3>
+		<h3>M3 Chip</h3>
+		<h4>A stunning all‑in‑one desktop for creativity and productivity.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM6,299</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device3.html'">Learn More</button>
+        </div>
+        </div>
+        <p style="text-align: center;"><a href="device.html" class="btn">Shop Now</a></p>
+    </div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<FONT COLOR="white">&copy; 2024 TechStore. All rights reserved.</FONT>
+	</footer>
+
+<!-- JavaScript -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the current date and time in Malaysia time
+        var currentDate = new Date();
+        var options = { timeZone: 'Asia/Kuala_Lumpur' };
+        var malaysiaDate = new Date(currentDate.toLocaleString('en-US', options));
+
+        // Format the date and time
+        var dateTimeString = malaysiaDate.toLocaleString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+            timeZoneName: 'short'
+        });
+
+        // Display the formatted date and time on the page
+        document.getElementById('datetime1').textContent = dateTimeString;
+    });
+    </script>
+</body>
+</html>

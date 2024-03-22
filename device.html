@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+ <!-- Header section -->
+   <div class="header">
+        <h1>Product Listing</h1>
+    </div>
+
+<!-- Navigation menu -->
+    <nav class="nav_menu">
+        <a href="index2.html">Home</a>
+        <a href="device.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+ <div id="datetime1"></div>
+    
+   
+<br>
+
+    <div class="product-grid-container">
+        <div class="product-grid">
+                <img src="mba13.png" alt="Device 1">
+                <h3>MacBook Air 13"</h3>
+		<h3>M1 Chip</h3>
+		<h4>A lightweight, capable laptop to get things done on the go.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM4,399</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device1.html'">Learn More</button>
+        </div>
+        <div class="product-grid">
+                <img src="mba1315.jpg" alt="Device 2">
+                <h3>MacBook Air 13" And 15"</h3>
+		<h3>M2 Chip</h3>
+		<h4>Strikingly thin and fast so you can work, play or create anywhere.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM5,199</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device2.html'">Learn More</button>
+        </div>
+ 	<div class="product-grid">
+                <img src="imac.png" alt="Device 3">
+                <h3>iMac"</h3>
+		<h3>M3 Chip</h3>
+		<h4>A stunning all‑in‑one desktop for creativity and productivity.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM6,299</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device3.html'">Learn More</button>
+        </div>
+        <div class="product-grid">
+                <img src="macpro.png" alt="Device 4">
+                <h3>MacPro"</h3>
+		<h3>M2 Ultra Chip</h3>
+		<h4>A pro workstation with PCIe expansion for demanding workflows.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM32,999</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device4.html'">Learn More</button>
+        </div>
+	<div class="product-grid">
+                <img src="macmini.png" alt="Device 5">
+                <h3>Mac Mini</h3>
+		<h3>M2 or M2 Pro Chip</h3>
+		<h4>A remarkably versatile desktop with outsized performance.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM2,499</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device5.html'">Learn More</button>
+        </div>
+        <div class="product-grid">
+                <img src="macstudio.png" alt="Device 6">
+                <h3>Mac Studio</h3>
+		<h3>M2 Max or M2 Ultra Chip</h3>
+		<h4>Powerful performance and extensive connectivity for pro workflows.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM9,499</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device6.html'">Learn More</button>
+        </div>
+	<div class="product-grid">
+                <img src="studiodisplay.png" alt="Device 7">
+                <h3>Studio Display</h3>
+		<h4>A 5K Retina display with stellar camera and audio.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM6,999</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device7.html'">Learn More</button>
+        </div>
+        <div class="product-grid">
+                <img src="prodisplay.png" alt="Device 8">
+                <h3>pro Display XDR</h3>
+		<h4>An advanced 6K XDR display for pro workflows.</h4>
+		<FONT COLOR="#0081B4"><h4><b>From RM19,999</b></h4></FONT>
+		<button class="button" onclick="window.location.href='device8.html'">Learn More</button>
+        </div>
+       
+
+ <!-- Footer -->
+    <footer class="footer">
+        <FONT COLOR="white">&copy; 2024 TechStore. All rights reserved.</FONT>
+    </footer>
+
+ <!-- JavaScript -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the current date and time in Malaysia time
+        var currentDate = new Date();
+        var options = { timeZone: 'Asia/Kuala_Lumpur' };
+        var malaysiaDate = new Date(currentDate.toLocaleString('en-US', options));
+
+        // Format the date and time
+        var dateTimeString = malaysiaDate.toLocaleString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: 'numeric',
+            second: 'numeric',
+            timeZoneName: 'short'
+        });
+
+        // Display the formatted date and time on the page
+        document.getElementById('datetime1').textContent = dateTimeString;
+    });
+    </script>
+</body>
+</html>

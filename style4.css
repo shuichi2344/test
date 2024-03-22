@@ -1,0 +1,141 @@
+/* Header styles */
+.header {
+    background-color: #474F7A;
+    color: pink;
+    padding: 10px 0; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+/* CSS property for navigation menu */
+.nav_menu {
+    overflow: hidden;
+    background-color: #474F7A;
+    text-align: center; /* Center the navigation menu */
+}
+
+.nav_menu a {
+    display: inline-block; /* Change display to inline-block */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: #917FB3;
+    color: #2A2F4F;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+h2 {
+    text-align: center;
+    color: #C68484;
+}
+        
+p {
+    color: #460C68;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: disk;
+    padding-left: 30;
+	color: #460C68;
+	line-height: 1.6;
+}
+
+li {
+    color: #460C68;
+	line-height: 1.6;
+}
+
+.highlight {
+    background-color: #FFF3CF;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animated {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+		
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #FBECB2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+      
+/* Testimonials */
+.testimonial {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+        
+.testimonial p {
+    margin-bottom: 10px;
+}
+        
+.testimonial-author {
+    font-style: italic;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #474F7A;
+    padding: 5px 0; /* Increase padding for better spacing */
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the page */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Align footer to the bottom of the viewport */
+}

@@ -1,0 +1,185 @@
+/* Add your CSS styles here */
+/* Header styles */
+.header {
+    background-color: #474F7A;
+    color: pink;
+    padding: 10px 0; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+/* CSS property for navigation menu */
+.nav_menu {
+    overflow: hidden;
+    background-color: #474F7A;
+    text-align: center; /* Center the navigation menu */
+}
+
+.nav_menu a {
+    display: inline-block; /* Change display to inline-block */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: #917FB3;
+    color: #2A2F4F;
+}
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.banner-img {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+.banner-img img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+		
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+        
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+h2 {
+    text-align: center;
+    color: #C68484;
+}
+        
+p {
+    margin-bottom: 15px;
+}
+
+ .contact-info {
+    margin-bottom: 30px;
+    text-align: center;
+}
+        
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+        
+.product-list {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+/* Product grid container styles */
+.product-grid-container {
+    padding: 20px; /* Added padding */
+    display: flex; /* Use flexbox for better alignment */
+    flex-wrap: wrap; /* Allow wrapping of grid items */
+    justify-content: center; /* Center grid items horizontally */
+}
+
+/* Product grid item styles */
+.product-grid {
+    margin: 10px; /* Added margin between grid items */
+    max-width: 300px; /* Set maximum width for grid items */
+    border: 1px solid #ccc; /* Added border for visual separation */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    display: flex; /* Use flexbox for better alignment */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text horizontally */
+}
+
+.product-grid:hover {
+    transform: translateY(-5px); /* Move grid item up on hover */
+}
+
+.product-item img {
+    max-width: 100%; /* Ensure image fills container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-details {
+    padding: 10px; /* Added padding for better spacing */
+    text-align: center;
+}
+
+.product-details h3 {
+    margin: 10px 0; /* Adjusted margin */
+    text-align: center;
+}
+
+.product-details h4 {
+    margin: 5px 0; /* Adjusted margin */
+    color: #555; /* Diminished text color */
+    text-align: center;
+}
+
+/* Button styles */
+.button {
+    background-color: #332FD0;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjusted padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.button:hover {
+    background-color: #0002A1;
+}
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #FBECB2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #474F7A;
+    padding: 5px 0; /* Increase padding for better spacing */
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the page */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Align footer to the bottom of the viewport */
+}
+   

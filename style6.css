@@ -1,0 +1,149 @@
+/* Header styles */
+.header {
+    background-color: #474F7A;
+    color: pink;
+    padding: 10px 0; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+/* CSS property for navigation menu */
+.nav_menu {
+    overflow: hidden;
+    background-color: #474F7A;
+    text-align: center; /* Center the navigation menu */
+}
+
+.nav_menu a {
+    display: inline-block; /* Change display to inline-block */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav_menu a:hover {
+    background-color: #917FB3;
+    color: #2A2F4F;
+}
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+        
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+}
+        
+p {
+    margin-bottom: 15px;
+}
+        
+.product-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+        
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+        
+.product-details {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.specifications {
+    margin-top: 20px;
+}
+        
+.specifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+        
+.specifications li {
+    margin-bottom: 10px;
+}
+		
+.banner-img {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner-img img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+		
+.key-features {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.key-features h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+       
+.key-features ul {
+    list-style-type: none;
+    padding: 0;
+}
+        
+.key-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.key-features li i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+		/* Button */
+.btn {
+    display: inline-block;
+    background-color: #332FD0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #474F7A;
+    padding: 5px 0; /* Increase padding for better spacing */
+    text-align: center;
+    width: 100%; /* Ensure footer spans the full width of the page */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Align footer to the bottom of the viewport */
+}
